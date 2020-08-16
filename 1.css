@@ -1,0 +1,380 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	src: url('font/Caveat-Bold.ttf');
+	font-family: caveat-Bold;
+}
+@font-face{
+	src: url('font/Poppins-Medium.ttf');
+	font-family: poppins;
+}
+@font-face{
+	src: url('font/Barlow-Medium.ttf');
+	font-family: barlow;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: #0d0d0d;
+	position: relative;
+}
+.menu_topBar{
+	display: block;
+	height: 13pt;
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 23px;
+	margin-left: -30px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+.menu_topBar a{
+	display: block;
+	font-family: poppins;
+	font-size: 13px;
+	color: #dddddd;
+	position: relative;
+	top: -4px;
+}
+.menu_topBar li{
+	height: 11px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-right: 1px solid #464646;
+}
+
+.icon_down{
+	font-size: 8px;
+	margin-left: 9px;
+	color: #dddddd;
+}
+.account_topBar{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: -27px;
+}
+
+.account_topBar li{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.shop_topBar{
+	width: 75px;
+	height: 60px;
+	text-align: center;
+	position: relative;
+	border-left: 1px solid #464646;
+	border-right: 1px solid #464646;
+}
+.shop_topBar img{
+	margin-top: 16px;
+}
+.number_shape{
+	font-size: 10px;
+	color: #dddddd;
+	font-family: poppins;
+	display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding-top: 3px;
+    background-color: #c0a576;
+    border-radius: 50%;
+    top: 8px;
+    left: 40px;
+}
+.unit_topBar{
+	display: block;
+    font-family: poppins;
+    font-size: 20px;
+    color: #dddddd;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 23px;
+}
+.currency img{
+	width: 30px;
+	height: 20px;
+}
+.currency{
+	width: 100px ;
+	display: flex;
+}
+.main_header{
+	width: 100%;
+	height: 192px;
+	background-color: #c0a576;
+}
+.leftMid_header{
+	margin-left: -30px;
+}
+.img_logo{
+	width: 90px;
+	margin-top: 20px;
+}
+.title_logo_header{
+	margin-top: -81px;
+	margin-left: 90px;
+}
+.title_logo_header h1{
+	font-family: barlow;
+	font-size: 36px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.title_logo_header h4{
+	font-family: barlow;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 0px;
+}
+.find_items_header{
+	display: flex;
+	margin-left: 30px;
+}
+.all_header span{
+	display: block;
+	width: 100px;
+	height: 58px;
+	background-color: #1d1d1d;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin-top: 30px;
+	font-family: poppins;
+	font-size: 16px;
+	color: #ffffff;
+	padding-top: 16px;
+	padding-left: 34px;
+}
+.search_header{
+	width: 352px;
+	height: 58px;
+	margin-top: 30px;
+	background-color: #ffffff;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.search_header input{
+	border: none;
+	margin-top: 16px;
+	margin-left: 34px;
+	color: #7b7b7b;
+}
+i.fa.fa-search {
+	color: #7b7b7b;
+}
+
+button.searchButton {
+    border: none;
+    background-color: transparent;
+    margin-left: 90px;
+}
+.rightMid_header{
+	display: flex;
+	margin-top: 40px;
+	margin-left: 30px;
+	width: 340px;
+	justify-content: flex-end;
+}
+.support_header{
+	margin-left: 25px;
+	margin-right: 60px;
+	font-family: poppins;
+}
+.support_header h5{
+	margin-top: -2px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.support_header span{
+	font-weight: bold;
+	color: #333333;
+	font-size: 15px;
+	margin-right: 0px;
+}
+.menu_header i{
+	width: 58px;
+    height: 58px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 23px;
+    margin-right: -27px;
+    margin-top: -8px;
+}
+.banner_header{
+	background-color: #f6f6f6;
+	position: absolute;
+	height: 150px;
+	top: 180px;
+	left: 394px;
+	border-radius: 3px;
+}
+.text_big_header{
+	margin-top: 20px;
+}
+.rate_sale_header {
+	padding-top: -1px;
+	margin-left: 650px;
+	margin-right: 8px;
+	font-family: caveat-Bold;
+	font-size: 50px;
+}
+.everything{
+	font-family: poppins;
+	font-size: 35px;
+	font-weight: bold;
+}
+.banner_header h3{
+	font-weight: bold;
+	font-family: poppins;
+	font-size: 18px;
+	color: #c0a576;
+	margin-left: 720px;
+}
+.service_header{
+	width: 100%;
+	height: 145px;
+	background-color: #0d0d0d;
+}
+.return_service{
+	margin-top: 103px;
+	text-align: center;
+	color: #f4f4f4;
+	border-right: 1px solid #464646;
+	height: 12px;
+}
+.border_none_header{
+	border: none ;
+}
+.shipping_service{
+	margin-top: -7px;
+}
+.return_service img{
+	margin-top: -6px;
+    margin-right: 5px;
+}
+.return_service span{
+	font-family: poppins;
+	font-size: 16px;
+}
+.content{
+	width: 100%;
+	height: 6440px;
+}
+.footer{
+	width: 100%;
+	height: 575px;
+}
+.support_footer{
+	width: 100%;
+	height: 357px;
+	background-color: #0e0e0e;
+}
+.col1_support_footer{
+	margin-top: 80px;
+}
+.contact_pay_footer{
+	width: 100%;
+	height: 120px;
+	display: flex;
+}
+.contact_footer{
+	width: 50%;
+	background-color: #191919;
+	color: #ffffff;
+	
+}
+.detail_contact_footer{
+	margin-top: 38px;
+	margin-left: 400px;
+	display: flex;
+	font-family: poppins;
+	font-weight: bold;
+}
+.text_followus{
+	margin-top: 10px;
+}
+.iconFb_footer i{
+	display: block;
+    margin-left: 30px;
+    margin-right: -25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.pay_footer{
+	width: 50%;
+	background-color: #bba174;
+}
+.detail_pay_footer{
+	margin-top: 45px;
+    margin-left: 250px;
+}
+.last_footer{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	background-color: #ffffff;
+	font-family: poppins;
+	font-size: 17px;
+
+}
+.yellow_text{
+	color: #bba174;
+}
+.list_help_footer{
+	list-style: none;
+	color: #a8a8a8;
+}
+.list_help_footer a{
+	margin-left: 8px;
+	line-height: 42px;
+	color: #a8a8a8;
+}
+.list_help_footer a:hover {
+	color: #c0a576;
+	text-decoration: underline;
+}
+.list_help_footer li:hover {
+	color: #c0a576;
+}
+.col1_support_footer h3{
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 17px;
+}
+.product_img{
+	height: 245px;
+	background-color: gray;
+	border-radius: 5px;
+	
+}
+.product_style{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.product_type_fashion{
+	text-align: center;
+}
+
+
+
+
+

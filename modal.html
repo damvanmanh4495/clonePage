@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="shop_topBar" data-toggle="modal" data-target="#myModal">
+        <img src="img/Account.png" alt="">
+        
+    </div>
+    <div class="background_logIn">
+        <div class="container " >
+            <div class="logIn_modal">
+                <div class="log_in">
+                    <h2>Login</h2>
+                    <form action="">
+                        <p>
+                            <input type="text" id="userName_logIn" placeholder="Username or email">   
+                        </p>
+                        <p>
+                            <input type="password" id="password_logIn" placeholder="Password">
+                        </p>
+                        <p class="lost_password">
+                            <a href="">Lost your password?</a>
+                        </p>
+                        <p class="remember_password">
+                            <label for="checkRememberme">
+                                <input type="checkbox" name="rememberme" id="checkRememberme" value="forever">Remember Me
+                            </label>
+                        </p>
+                        <p class="btn_logIn">
+                            <button class="btn_submit">Login</button>
+                        </p>
+                        <p class="link_bottom">
+                            Not a member yet? <span class="click_reg" >Register now</span>
+                        </p>
+                    </form>
+                </div>
+                <!-- end logIn form -->
+                <div class="register">
+                    <h2>Register</h2>
+                    <form action="">
+                        <p class="userName_register">
+                            <input type="text" placeholder="Username">
+                        </p>
+                        <p class="userName_register">
+                            <input type="text" placeholder="Email">
+                        </p>
+                        <p class="userName_register">
+                            <input type="password" placeholder="Password">
+                        </p>
+                        
+                        <p class="userName_register">
+                            <input type="text" placeholder="Repeat password">
+                        </p>
+                        <p class="btn_logIn">
+                            <button class="btn_submit">Sign up</button>
+                        </p>
+                        <p class="link_bottom">
+                            Are you a member? <span class="click_log">Login now</span>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        <div class="close_logIn">
+            <i class="fa fa-times "></i>
+        </div>
+    </div>
+
+    <script src="modal.js"></script>
+    
+</body>
+</html>
